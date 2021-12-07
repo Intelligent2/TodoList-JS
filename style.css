@@ -1,0 +1,93 @@
+body , html {
+margin: 0;
+padding: 0;
+text-align: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+height: 100%;
+background-color: bisque;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-flow: column;
+}
+.todo_item{
+    display: flex;
+    width: 500px;
+    min-height: 50px;
+    border: 1px solid navy;
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+
+.todo_wrapper {
+    display: flex;
+    width: 500px;
+    min-height: 100px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+.imput_wrapper{
+   width: 80%;
+   
+}
+.imput_wrapper input {
+    width: 100%;
+    height: 25px;
+}
+.button_wrapper{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.button_wrapper button {
+    outline: none;
+    background-color:red ;
+    color: #ffffff;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.buttons input{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.buttons button { 
+    outline: none;
+    background-color:red ;
+    color: #ffffff;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.task {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+.description{
+display: flex;
+background: white;
+width: 500px;
+text-align: center;
+padding: 15px;
+}
